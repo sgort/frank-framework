@@ -1,0 +1,44 @@
+{
+    "consumptions": [
+      {
+        "serviceLocationId": 48795,
+        "serviceLocationName": "Loevenhoutsedijk (1)",
+        "applianceId": 0,
+        "applianceName": "Net_PHASEB",
+        "applianceType": "GRID",
+        "consumptionMonth": "2022-11-01",
+        "unit": "KWh",
+        "consumption": 3530596.9
+      },
+      {
+        "serviceLocationId": 48795,
+        "serviceLocationName": "Loevenhoutsedijk (1)",
+        "applianceId": 0,
+        "applianceName": "Net_PHASEA",
+        "applianceType": "GRID",
+        "consumptionMonth": "2022-11-01",
+        "unit": "KWh",
+        "consumption": 4464966.1
+      },
+      {
+        "serviceLocationId": 48795,
+        "serviceLocationName": "Loevenhoutsedijk (1)",
+        "applianceId": 0,
+        "applianceName": "Net_PHASEC",
+        "applianceType": "GRID",
+        "consumptionMonth": "2022-11-01",
+        "unit": "KWh",
+        "consumption": 2107100.9
+      },
+      {
+        "serviceLocationId": 48795,
+        "serviceLocationName": "Loevenhoutsedijk (1)",
+        "applianceId": 1,
+        "applianceName": "Meter 1",
+        "applianceType": "Outlet",
+        "consumptionMonth": "2022-11-01",
+        "unit": "KWh",
+        "consumption": 93196.7
+      }
+    ]
+  }
