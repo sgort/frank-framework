@@ -18,8 +18,13 @@
           root="booking"
           schema="booking.xsd">
         <Forward name="success" path="Exit" />
-        <Forward name="failure" path="BadRequest" />
+        <Forward name="failure" path="makeInvalidBookingError" />
       </XmlValidatorPipe>
+      <FixedResultPipe
+          name="makeInvalidBookingError"
+          returnString="Input booking does not satisfy booking.xsd">
+        <Forward name="success" path="BadRequest"/>
+      </FixedResultPipe>
     </Pipeline>
   </Adapter>
 </Configuration>
